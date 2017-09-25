@@ -1,0 +1,95 @@
+html, body {
+    font-size: 16px;
+    background-color: black;
+}
+
+
+.navbar ul {
+    padding-right: 1.5rem;
+}
+
+.navbar li {
+    color: white;
+    display: inline-block;
+    float: right;  
+    padding: 4rem 2.5rem;
+
+    
+}
+
+.navbar li a {
+    font-family: 'Cabin', sans-serif;
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.navbar li a:hover {
+    color: #AE0505;
+    text-decoration: underline;
+}
+.container {
+    position: relative;
+}
+.container > img { 
+    width: 40%;
+    height: auto;
+    left: 0;
+    opacity: .15;
+    position: absolute;
+    top: 0;
+    padding: 9rem 5rem;
+}
+
+h1, h2 {
+    padding-bottom: 3rem;
+    font-size: 2.3rem;
+    padding-left: 9rem;
+    padding-right: 5rem;
+    line-height: 60px;
+    word-spacing: 6px;
+    color: rgb(247, 247, 247);
+    font-family: 'Cabin', sans-serif;
+    font-weight: bolder;
+}
+
+h1 {
+    padding-top: 12rem;
+}
+
+.heading-paragraph {
+    color: white; 
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding: 1rem 6rem;
+    padding-left: 9rem;
+    line-height: 40px;
+    word-spacing: 4px;
+}
+
+a {
+    text-decoration: underline;
+}
+a:visited {
+    color: rgb(247, 247, 247);
+}
+
+a:hover {
+    color: #AE0505;
+    text-decoration: underline;
+}
+
+footer {
+    color: grey;
+    font-size: 0.9rem;
+    font-family: 'Cabin', sans-serif;
+    padding-left: 9rem;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    clear: both;
+}
+
+
+
